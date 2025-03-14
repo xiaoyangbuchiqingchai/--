@@ -41,8 +41,8 @@ while True:
         if "<!--EXIT-->" in full_reply:
             # 清除标记并显示最终回复
             clean_reply = full_reply.replace("<!--EXIT-->", "").strip()
-            print(f"\n助理：{clean_reply}\n")
-            print("对话已结束")
+            #print(f"\n助理：{clean_reply}\n")
+            #print("对话已结束")
             break
             
         # 正常对话处理
