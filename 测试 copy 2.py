@@ -16,7 +16,7 @@ system_prompt = """
 
 messages = [{"role": "system", "content": system_prompt}]
 
-print("\n欢迎使用DeepSeek对话助手！可随时表达退出意愿结束对话\n")
+#print("\n欢迎使用DeepSeek对话助手！可随时表达退出意愿结束对话\n")
 
 while True:
     try:
